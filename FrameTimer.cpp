@@ -14,5 +14,4 @@ float FrameTimer::Mark()
     const duration<double> frameTime = last - old;
 
     return frameTime.count();
-
 }

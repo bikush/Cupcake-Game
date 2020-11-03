@@ -44,7 +44,6 @@ sf::Text HUD::getMessage()
 sf::Text HUD::getTime()
 {
     return m_TimeText;
-
 }
 
 void HUD::setTime(std::string text)

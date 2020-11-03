@@ -6,8 +6,6 @@ using namespace sf;
 
 Engine::Engine()
 {
-	
-
 	//Get the screen resolution and create an SFML window and fullscreen view
 	Vector2f resolution;
 	resolution.x = VideoMode::getDesktopMode().width;
@@ -19,9 +17,6 @@ Engine::Engine()
 	//Associate the sprite with the texture and set the position to render
 	m_BackgroundSprite = Sprite(TextureHolder::GetTexture("Images/background.png"));
 	m_BackgroundSprite.setPosition(0, 0);
-
-	
-	
 }
 
 void Engine::run()
@@ -41,9 +36,6 @@ void Engine::run()
 				
 				draw();
 	}
-
-		
-	
 }
 
 
