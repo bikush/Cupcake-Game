@@ -24,5 +24,6 @@ Player::~Player()
 bool Player::isAlive()
 {
 	m_dead = m_health <= 0;
+
 	return m_dead;
 }
